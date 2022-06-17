@@ -1,0 +1,88 @@
+#backcolor{
+    background-color:rgb(196, 230, 243) ;
+    
+    }
+    
+    #logo{
+         height: 20%;
+         width: 10%;
+         margin-left: 15px;
+         border-radius: 20%;
+         margin-top: 5px;
+     }
+     .footer{
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      text-align: center;
+      background-color:rgb(98, 189, 201);
+      display: inline-block;
+      }
+    
+        ul {
+            background: #f8f8f8;
+            padding: 5px;
+          }
+
+         
+          img{
+            width: 100%;
+            height: auto;
+            vertical-align: middle;
+          }
+          
+         *{
+             box-sizing: border-box;
+         }
+         .child {
+            
+            float: left;
+            width:  25%;
+            height: 100px;
+            background-size: cover;
+           
+            padding: 15px;
+            -webkit-filter: drop-shadow(5px 5px 5px #222 );
+            filter: drop-shadow(5px 5px 5px #222);
+          
+          }
+          
+          .parent::after {
+            content: "";
+            clear: both;
+            display: table;
+          }
+          #parent{
+              margin-top: 5%;
+          }
+          a:hover{
+            background-color: aquamarine;
+          }
+          .fa {
+            /* padding: 10px; */
+            font-size: 15px;
+            width: 50px;
+            text-align: center;
+            text-decoration: none;
+          }
+          .fa-facebook {
+            background: #3B5998;
+            color: white;
+          }
+          
+          
+          .fa-twitter {
+            background: #55ACEE;
+            color: white;
+          }
+          .fa-google {
+            background: #dd4b39;
+            color: white;
+          }
+          
+          .fa-linkedin {
+            background: #007bb5;
+            color: white;
+          }
+          
